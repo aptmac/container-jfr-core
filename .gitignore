@@ -4,3 +4,7 @@
 .classpath
 .project
 .settings/
+
+# Local jmc clone & maven repo to hold jars
+/jmc/
+/local-maven-repo/

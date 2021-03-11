@@ -47,8 +47,8 @@ import org.openjdk.jmc.rjmx.subscription.IMRIValueListener;
 import org.openjdk.jmc.rjmx.subscription.ISubscriptionService;
 import org.openjdk.jmc.rjmx.subscription.MRI;
 import org.openjdk.jmc.rjmx.subscription.MRIValueEvent;
-import org.openjdk.jmc.ui.common.xydata.DefaultTimestampedData;
-import org.openjdk.jmc.ui.common.xydata.ITimestampedData;
+import org.openjdk.jmc.common.xydata.DefaultTimestampedData;
+import org.openjdk.jmc.common.xydata.ITimestampedData;
 
 /**
  * Simple attribute storage that contains attribute events.

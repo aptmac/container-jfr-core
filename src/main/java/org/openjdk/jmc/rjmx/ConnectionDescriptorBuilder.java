@@ -37,8 +37,8 @@ import java.net.MalformedURLException;
 import javax.management.remote.JMXServiceURL;
 
 import org.openjdk.jmc.rjmx.internal.JMXConnectionDescriptor;
-import org.openjdk.jmc.ui.common.security.ICredentials;
-import org.openjdk.jmc.ui.common.security.InMemoryCredentials;
+import org.openjdk.jmc.common.security.ICredentials;
+import org.openjdk.jmc.common.security.InMemoryCredentials;
 
 /**
  * This class hides the complexities of building a default JMX over RMI ConnectionDescriptor in a

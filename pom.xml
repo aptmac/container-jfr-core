@@ -15,7 +15,7 @@
   <java.version>11</java.version>
   <maven.compiler.target>${java.version}</maven.compiler.target>
   <maven.compiler.source>${java.version}</maven.compiler.source>
-  <jmc.version>7.1.1</jmc.version>
+  <jmc.version>8.1.0-SNAPSHOT</jmc.version>
 
   <org.apache.maven.plugins.compiler.version>3.6.1</org.apache.maven.plugins.compiler.version>
   <org.apache.maven.plugins.surefire.version>3.0.0-M4</org.apache.maven.plugins.surefire.version>
@@ -38,6 +38,13 @@
   <org.slf4j.version>1.7.30</org.slf4j.version>
 </properties>
 
+<repositories>
+    <repository>
+        <id>local-maven-repo</id>
+        <url>file:///${project.basedir}/local-maven-repo</url>
+    </repository>
+</repositories>
+
 <dependencies>
   <dependency>
     <groupId>org.openjdk.jmc</groupId>
@@ -51,12 +58,22 @@
   </dependency>
   <dependency>
     <groupId>org.openjdk.jmc</groupId>
+    <artifactId>flightrecorder.configuration</artifactId>
+    <version>${jmc.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.openjdk.jmc</groupId>
     <artifactId>flightrecorder.rules</artifactId>
     <version>${jmc.version}</version>
   </dependency>
   <dependency>
     <groupId>org.openjdk.jmc</groupId>
     <artifactId>flightrecorder.rules.jdk</artifactId>
+    <version>${jmc.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.openjdk.jmc</groupId>
+    <artifactId>jdp</artifactId>
     <version>${jmc.version}</version>
   </dependency>
   <dependency>

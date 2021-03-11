@@ -33,7 +33,7 @@
 package org.openjdk.jmc.rjmx.actionprovider.internal;
 
 import org.openjdk.jmc.rjmx.IServerHandle;
-import org.openjdk.jmc.ui.common.action.IActionProvider;
+import org.openjdk.jmc.common.action.IActionProvider;
 
 public class ActionProviderRepository {
 

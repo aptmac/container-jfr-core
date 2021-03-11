@@ -38,10 +38,10 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.openjdk.jmc.ui.common.jvm.JVMCommandLineToolkit;
-import org.openjdk.jmc.ui.common.jvm.JVMDescriptor;
-import org.openjdk.jmc.ui.common.resource.Resource;
-import org.openjdk.jmc.ui.common.util.Environment;
+import org.openjdk.jmc.common.jvm.JVMCommandLineToolkit;
+import org.openjdk.jmc.common.jvm.JVMDescriptor;
+import org.openjdk.jmc.common.resource.Resource;
+import org.openjdk.jmc.common.util.Environment;
 
 /**
  * Converts names according to rules specified with the {@value #LABELING_RULES_EXTENSION_POINT}
