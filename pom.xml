@@ -23,6 +23,8 @@
   <org.apache.maven.plugins.info.reports.version>3.0.0</org.apache.maven.plugins.info.reports.version>
   <org.codehaus.mojo.license.plugin.version>2.0.0</org.codehaus.mojo.license.plugin.version>
 
+  <org.eclipse.core.runtime.version>3.15.0</org.eclipse.core.runtime.version>
+
   <org.apache.commons.lang3.version>3.9</org.apache.commons.lang3.version>
   <org.apache.commons.io.version>2.6</org.apache.commons.io.version>
   <org.apache.commons.text.version>1.8</org.apache.commons.text.version>
@@ -37,13 +39,6 @@
   <com.diffplug.spotless.maven.plugin.version>1.27.0</com.diffplug.spotless.maven.plugin.version>
   <org.slf4j.version>1.7.30</org.slf4j.version>
 </properties>
-
-<repositories>
-    <repository>
-        <id>local-maven-repo</id>
-        <url>file:///${project.basedir}/local-maven-repo</url>
-    </repository>
-</repositories>
 
 <dependencies>
   <dependency>
@@ -74,6 +69,36 @@
   <dependency>
     <groupId>org.openjdk.jmc</groupId>
     <artifactId>jdp</artifactId>
+    <version>${jmc.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.openjdk.jmc</groupId>
+    <artifactId>jdp</artifactId>
+    <version>${jmc.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.eclipse.platform</groupId>
+    <artifactId>org.eclipse.core.runtime</artifactId>
+    <version>${org.eclipse.core.runtime.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.openjdk.jmc</groupId>
+    <artifactId>org.openjdk.jmc.commands</artifactId>
+    <version>${jmc.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.openjdk.jmc</groupId>
+    <artifactId>org.openjdk.jmc.ui.common</artifactId>
+    <version>${jmc.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.openjdk.jmc</groupId>
+    <artifactId>org.openjdk.jmc.rjmx</artifactId>
+    <version>${jmc.version}</version>
+  </dependency>
+    <dependency>
+    <groupId>org.openjdk.jmc</groupId>
+    <artifactId>org.openjdk.jmc.rjmx.services.jfr</artifactId>
     <version>${jmc.version}</version>
   </dependency>
   <dependency>

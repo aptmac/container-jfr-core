@@ -4,7 +4,10 @@
 .classpath
 .project
 .settings/
+.idea/
+*.iml
 
-# Local jmc clone & maven repo to hold jars
-/jmc/
-/local-maven-repo/
+# Local jmc clone & directory to hold jars; I have a symlink here on jmc -> workspace/jmc
+jmc
+/jmc
+/local-maven-repo/*.jar
