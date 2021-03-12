@@ -34,8 +34,6 @@ package org.openjdk.jmc.rjmx.preferences;
 
 import java.io.File;
 
-import org.openjdk.jmc.ui.common.CorePlugin;
-
 /**
  * Preference keys and default values
  */

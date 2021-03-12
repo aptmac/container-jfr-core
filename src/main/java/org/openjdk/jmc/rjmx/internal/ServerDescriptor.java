@@ -36,7 +36,7 @@ import java.util.UUID;
 
 import org.openjdk.jmc.rjmx.IServerDescriptor;
 import org.openjdk.jmc.common.jvm.JVMDescriptor;
-import org.openjdk.jmc.ui.common.labelingrules.NameConverter;
+import org.openjdk.jmc.common.labelingrules.NameConverterBase;
 
 public class ServerDescriptor implements IServerDescriptor {
 	private final String guid;
@@ -50,7 +50,7 @@ public class ServerDescriptor implements IServerDescriptor {
 	public ServerDescriptor(String guid, String name, JVMDescriptor jvmInfo) {
 		this.guid = guid == null ? UUID.randomUUID().toString() : guid;
 		if (name == null) {
-			this.name = jvmInfo != null ? NameConverter.getInstance().format(jvmInfo) : this.guid;
+			this.name = jvmInfo != null ? NameConverterBase.getInstance().format(jvmInfo) : this.guid;
 		} else {
 			this.name = name;
 		}
