@@ -66,7 +66,7 @@ import org.openjdk.jmc.flightrecorder.configuration.model.xml.XMLAttributeInstan
 import org.openjdk.jmc.flightrecorder.configuration.model.xml.XMLModel;
 import org.openjdk.jmc.flightrecorder.configuration.model.xml.XMLTagInstance;
 import org.openjdk.jmc.flightrecorder.configuration.model.xml.XMLValidationResult;
-import org.openjdk.jmc.flightrecorder.controlpanel.ui.model.EventConfiguration;
+import org.openjdk.jmc.flightrecorder.configuration.model.EventConfiguration;
 
 import com.redhat.rhjmc.containerjfr.core.FlightRecorderException;
 import com.redhat.rhjmc.containerjfr.core.sys.Environment;
