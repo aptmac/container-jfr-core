@@ -33,7 +33,7 @@
 package org.openjdk.jmc.rjmx;
 
 import org.openjdk.jmc.rjmx.internal.ServerDescriptor;
-import org.openjdk.jmc.ui.common.jvm.JVMDescriptor;
+import org.openjdk.jmc.common.jvm.JVMDescriptor;
 
 /**
  * An object describing a server

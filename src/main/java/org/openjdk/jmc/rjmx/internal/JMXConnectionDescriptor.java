@@ -42,8 +42,8 @@ import javax.naming.Context;
 
 import org.openjdk.jmc.rjmx.ConnectionDescriptorBuilder;
 import org.openjdk.jmc.rjmx.IConnectionDescriptor;
-import org.openjdk.jmc.ui.common.security.ICredentials;
-import org.openjdk.jmc.ui.common.security.SecurityException;
+import org.openjdk.jmc.common.security.ICredentials;
+import org.openjdk.jmc.common.security.SecurityException;
 
 /**
  * This is the default implementation of {@link IConnectionDescriptor}.

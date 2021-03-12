@@ -33,8 +33,8 @@
 package org.openjdk.jmc.rjmx.services;
 
 import org.openjdk.jmc.rjmx.subscription.MRI;
-import org.openjdk.jmc.ui.common.xydata.DataSeries;
-import org.openjdk.jmc.ui.common.xydata.ITimestampedData;
+import org.openjdk.jmc.common.xydata.DataSeries;
+import org.openjdk.jmc.common.xydata.ITimestampedData;
 
 public interface MRIDataSeries extends DataSeries<ITimestampedData> {
 

@@ -51,10 +51,10 @@ import org.openjdk.jmc.rjmx.IConnectionDescriptor;
 import org.openjdk.jmc.rjmx.IServerDescriptor;
 import org.openjdk.jmc.rjmx.RJMXPlugin;
 import org.openjdk.jmc.rjmx.internal.ServerDescriptor;
-import org.openjdk.jmc.ui.common.security.ICredentials;
-import org.openjdk.jmc.ui.common.security.PersistentCredentials;
-import org.openjdk.jmc.ui.common.security.SecurityException;
-import org.openjdk.jmc.ui.common.security.SecurityManagerFactory;
+import org.openjdk.jmc.common.security.ICredentials;
+import org.openjdk.jmc.common.security.PersistentCredentials;
+import org.openjdk.jmc.common.security.SecurityException;
+import org.openjdk.jmc.common.security.SecurityManagerFactory;
 
 class ModelPersistence {
 

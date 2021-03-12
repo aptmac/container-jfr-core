@@ -4,3 +4,8 @@
 .classpath
 .project
 .settings/
+.idea
+*.iml
+
+jmc
+/local-maven-repo/*.jar
