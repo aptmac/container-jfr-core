@@ -46,7 +46,7 @@ import java.util.Map;
 import javax.management.ObjectName;
 
 import org.openjdk.jmc.common.unit.IQuantity;
-import org.openjdk.jmc.rjmx.services.jfr.IRecordingDescriptor;
+import org.openjdk.jmc.rjmx.core.services.jfr.IRecordingDescriptor;
 
 public class CopyRecordingDescriptor implements IRecordingDescriptor {
     private final IRecordingDescriptor original;

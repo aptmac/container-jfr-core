@@ -10,6 +10,7 @@ cp org.openjdk.jmc.flightrecorder.configuration/target/flightrecorder.configurat
 cp org.openjdk.jmc.flightrecorder.rules/target/flightrecorder.rules-8.1.0-SNAPSHOT.jar ../../container-jfr-core/local-maven-repo
 cp org.openjdk.jmc.flightrecorder.rules.jdk/target/flightrecorder.rules.jdk-8.1.0-SNAPSHOT.jar ../../container-jfr-core/local-maven-repo
 cp org.openjdk.jmc.jdp/target/jdp-8.1.0-SNAPSHOT.jar ../../container-jfr-core/local-maven-repo
+cp org.openjdk.jmc.rjmx.core/target/rjmx.core-8.1.0-SNAPSHOT.jar ../../container-jfr-core/local-maven-repo/
 ```
 
 ## JMC JARs

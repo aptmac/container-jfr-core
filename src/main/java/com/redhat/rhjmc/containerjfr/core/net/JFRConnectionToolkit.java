@@ -52,8 +52,8 @@ import java.util.List;
 import javax.management.MBeanServerConnection;
 import javax.management.remote.JMXServiceURL;
 
-import org.openjdk.jmc.rjmx.ConnectionDescriptorBuilder;
-import org.openjdk.jmc.rjmx.ConnectionToolkit;
+import org.openjdk.jmc.rjmx.core.ConnectionDescriptorBuilder;
+import org.openjdk.jmc.rjmx.core.ConnectionToolkit;
 
 import com.redhat.rhjmc.containerjfr.core.sys.Environment;
 import com.redhat.rhjmc.containerjfr.core.sys.FileSystem;

@@ -48,17 +48,17 @@ import java.util.stream.Collectors;
 
 import javax.management.remote.JMXServiceURL;
 
-import org.openjdk.jmc.rjmx.ConnectionException;
-import org.openjdk.jmc.rjmx.ConnectionToolkit;
-import org.openjdk.jmc.rjmx.IConnectionDescriptor;
-import org.openjdk.jmc.rjmx.IConnectionHandle;
-import org.openjdk.jmc.rjmx.IConnectionListener;
-import org.openjdk.jmc.rjmx.internal.DefaultConnectionHandle;
-import org.openjdk.jmc.rjmx.internal.RJMXConnection;
-import org.openjdk.jmc.rjmx.internal.ServerDescriptor;
-import org.openjdk.jmc.rjmx.services.jfr.IFlightRecorderService;
-import org.openjdk.jmc.rjmx.services.jfr.internal.FlightRecorderServiceFactory;
-import org.openjdk.jmc.rjmx.services.jfr.internal.FlightRecorderServiceV2;
+import org.openjdk.jmc.rjmx.core.ConnectionException;
+import org.openjdk.jmc.rjmx.core.ConnectionToolkit;
+import org.openjdk.jmc.rjmx.core.IConnectionDescriptor;
+import org.openjdk.jmc.rjmx.core.IConnectionHandle;
+import org.openjdk.jmc.rjmx.core.IConnectionListener;
+import org.openjdk.jmc.rjmx.core.internal.DefaultConnectionHandle;
+import org.openjdk.jmc.rjmx.core.internal.RJMXConnection;
+import org.openjdk.jmc.rjmx.core.internal.ServerDescriptor;
+import org.openjdk.jmc.rjmx.core.services.jfr.IFlightRecorderService;
+import org.openjdk.jmc.rjmx.core.services.jfr.internal.FlightRecorderServiceFactory;
+import org.openjdk.jmc.rjmx.core.services.jfr.internal.FlightRecorderServiceV2;
 
 import com.redhat.rhjmc.containerjfr.core.sys.Clock;
 import com.redhat.rhjmc.containerjfr.core.sys.Environment;

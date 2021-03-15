@@ -55,7 +55,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import org.openjdk.jmc.rjmx.internal.WrappedConnectionException;
+import org.openjdk.jmc.rjmx.core.internal.WrappedConnectionException;
 
 import com.redhat.rhjmc.containerjfr.core.sys.Environment;
 import com.redhat.rhjmc.containerjfr.core.sys.FileSystem;
