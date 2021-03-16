@@ -62,11 +62,11 @@ import org.openjdk.jmc.common.unit.IConstrainedMap;
 import org.openjdk.jmc.common.unit.SimpleConstrainedMap;
 import org.openjdk.jmc.common.unit.UnitLookup;
 import org.openjdk.jmc.flightrecorder.configuration.events.EventOptionID;
-import org.openjdk.jmc.flightrecorder.controlpanel.ui.configuration.model.xml.XMLAttributeInstance;
-import org.openjdk.jmc.flightrecorder.controlpanel.ui.configuration.model.xml.XMLModel;
-import org.openjdk.jmc.flightrecorder.controlpanel.ui.configuration.model.xml.XMLTagInstance;
-import org.openjdk.jmc.flightrecorder.controlpanel.ui.configuration.model.xml.XMLValidationResult;
-import org.openjdk.jmc.flightrecorder.controlpanel.ui.model.EventConfiguration;
+import org.openjdk.jmc.flightrecorder.configuration.model.xml.XMLAttributeInstance;
+import org.openjdk.jmc.flightrecorder.configuration.model.xml.XMLModel;
+import org.openjdk.jmc.flightrecorder.configuration.model.xml.XMLTagInstance;
+import org.openjdk.jmc.flightrecorder.configuration.model.xml.XMLValidationResult;
+import org.openjdk.jmc.flightrecorder.configuration.model.EventConfiguration;
 
 import com.redhat.rhjmc.containerjfr.core.FlightRecorderException;
 import com.redhat.rhjmc.containerjfr.core.sys.Environment;

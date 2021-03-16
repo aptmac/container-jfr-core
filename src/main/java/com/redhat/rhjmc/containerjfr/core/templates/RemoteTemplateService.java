@@ -56,8 +56,8 @@ import org.jsoup.select.Elements;
 
 import org.openjdk.jmc.common.unit.IConstrainedMap;
 import org.openjdk.jmc.flightrecorder.configuration.events.EventOptionID;
-import org.openjdk.jmc.flightrecorder.controlpanel.ui.configuration.model.xml.XMLModel;
-import org.openjdk.jmc.flightrecorder.controlpanel.ui.model.EventConfiguration;
+import org.openjdk.jmc.flightrecorder.configuration.model.xml.XMLModel;
+import org.openjdk.jmc.flightrecorder.configuration.model.EventConfiguration;
 import org.openjdk.jmc.rjmx.services.jfr.IFlightRecorderService;
 
 import com.redhat.rhjmc.containerjfr.core.log.Logger;
